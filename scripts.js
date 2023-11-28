@@ -15,13 +15,13 @@ function displayRandomData(meals) {
         const title = document.createElement('h1');
         title.textContent = randomMeal.strMeal;
     
-        const paragraph = document.createElement('p');
-        paragraph.textContent = randomMeal.strInstructions;
+        // const paragraph = document.createElement('p');
+        // paragraph.textContent = randomMeal.strInstructions;
     
     const randomImgs = document.querySelector('.randomImgs');
     randomImgs.appendChild(image);
     randomImgs.appendChild(title);
-    randomImgs.appendChild(paragraph);
+    // randomImgs.appendChild(paragraph);
 }
 
 // fetch('https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood')
