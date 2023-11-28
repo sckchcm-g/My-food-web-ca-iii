@@ -28,6 +28,7 @@ function displayRandomData(meals) {
 // .then(response => response.json())
 // .then((parsedDataSearch) => {
 //   console.log(parsedDataSearch)
+
 // })
 
 
