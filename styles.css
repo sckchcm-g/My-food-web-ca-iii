@@ -87,7 +87,7 @@ nav{
     background-color: rgba(255, 255, 255, 0.820);
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
-    border-radius: 20px;
+    border-radius: 20%;
     width: 250px;
 }
 
@@ -119,7 +119,7 @@ nav{
 
 .thisImg{
     border: none;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .Introtext{
@@ -138,10 +138,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 1);
-    width: 400px;
+    width: 450px;
     height: 50px;
-    border-radius: 50px;
-    box-shadow: 2px 2px black;
+    border-radius: 20%;
+    box-shadow: 4px 4px black;
     opacity: 0.9;
 }
 .searchbar input{
@@ -288,6 +288,6 @@ footer{
         font-size: 20px;
     }
     .bakertitle{
-        font-size: 40px;
+        font-size: 30px;
     }
   }
