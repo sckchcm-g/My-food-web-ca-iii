@@ -159,7 +159,9 @@ nav{
     font-weight: 800;
     background-color: rgb(255, 255, 255, 0);
     border-radius: 50px;
-}
+    /* position: absolute;
+    transform: translate(-50%, -50%); */
+} 
 
 
 /* *******footer editing */
@@ -171,10 +173,14 @@ footer{
     padding: 40px 40px 40px 40px;
     border-radius: 30px;
 }
-
+/* footer div p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
 
 /* ******modal */
-/* Style for the modal */
+/* Style modal */
 .modal {
     position: fixed;
     /* text-align: center; */
@@ -190,8 +196,9 @@ footer{
     border-radius: 20px;
     opacity: 0.85;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* animation: modalopen 5000ms ease-in  1 normal both; */
   }
-  /* Style for the modal content */
+  /* Style modal content */
 
 .modal-content {
     color: black;
