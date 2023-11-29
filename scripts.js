@@ -61,7 +61,7 @@ meals.forEach(meal => {
   
     gridContainer.appendChild(mealDiv);
   
-    // You can add more elements for each meal here
+
   });
 
 });
@@ -104,7 +104,7 @@ function displayRandomData(meals) {
           }
         }
 
-        // Create a modal to display the ingredients
+
         const modal = document.createElement('div');
         modal.classList.add('modal');
         modal.innerHTML = `
@@ -118,7 +118,7 @@ function displayRandomData(meals) {
         `;
         document.body.appendChild(modal);
 
-        // Close the modal when the close button is clicked
+
         const closeButton = modal.querySelector('.close');
         closeButton.addEventListener('click', function() {
           modal.remove();
