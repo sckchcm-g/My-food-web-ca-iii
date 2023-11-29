@@ -246,6 +246,12 @@ footer{
     .randomImgs img{
         width: 550px;
     }
+    /* .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    } */
   }
   
   @media only screen and (max-width: 900px) {
@@ -262,4 +268,10 @@ footer{
     .randomImgs img {
         width: 350px;
     }
+    /* .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    } */
   }
