@@ -22,6 +22,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+
 nav{
    /* position: fixed;
    z-index: 99;
@@ -270,8 +272,11 @@ footer{
     }
     .navbar{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .bakertitle{
+        font-size: 40px;
     }
   }
